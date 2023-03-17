@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="395dp"
+        android:layout_height="181dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/CardScreen"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_marginTop="-22dp"
+        android:gravity="center"
+        android:text="Введите данные вашей карты"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_alignEnd="@+id/imageLogo"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:hint="CVV Код"
+        tools:ignore="UnknownIdInLayout" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_alignEnd="@+id/imageLogo"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="67dp"
+        android:gravity="center"
+        android:hint="Введите номер вашей карты"
+        tools:ignore="UnknownIdInLayout" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_alignEnd="@+id/imageLogo"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="240dp"
+        android:gravity="center"
+        android:hint="Срок"
+        tools:ignore="UnknownIdInLayout" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_alignEnd="@+id/imageLogo"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="63dp"
+        android:gravity="center"
+        android:hint="Имя держателя карта"
+        tools:ignore="UnknownIdInLayout" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_alignEnd="@+id/imageLogo"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="135dp"
+        android:backgroundTint="#040404"
+        android:gravity="center"
+        android:text="Принять" />
+
+</RelativeLayout>

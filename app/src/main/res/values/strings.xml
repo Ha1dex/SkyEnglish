@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SkyEnglish</string>
+    <string name="MainScreen">Voidite</string>
+    <string name="CardScreen">DannieCard</string>
 </resources>
